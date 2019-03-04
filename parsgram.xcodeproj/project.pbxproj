@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		345DF9AD2227504C00992894 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DF9AC2227504C00992894 /* CameraViewController.swift */; };
+		345DF9AF222DEB0700992894 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DF9AE222DEB0700992894 /* PostCell.swift */; };
 		34DFD0C92220B01A00EA04C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD0C82220B01A00EA04C9 /* AppDelegate.swift */; };
 		34DFD0CE2220B01A00EA04C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD0CC2220B01A00EA04C9 /* Main.storyboard */; };
 		34DFD0D02220B02600EA04C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD0CF2220B02600EA04C9 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		2859E0726691BF144E840C79 /* Pods-parsgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-parsgramUITests/Pods-parsgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		345DF9AC2227504C00992894 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		345DF9AE222DEB0700992894 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		34DFD0C52220B01A00EA04C9 /* parsgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parsgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DFD0C82220B01A00EA04C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34DFD0CD2220B01A00EA04C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				34DFD0F62224AEB300EA04C9 /* LoginViewController.swift */,
 				34DFD0F82224AEDA00EA04C9 /* FeedViewController.swift */,
 				345DF9AC2227504C00992894 /* CameraViewController.swift */,
+				345DF9AE222DEB0700992894 /* PostCell.swift */,
 			);
 			path = parsgram;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				345DF9AD2227504C00992894 /* CameraViewController.swift in Sources */,
 				34DFD0F92224AEDA00EA04C9 /* FeedViewController.swift in Sources */,
 				34DFD0C92220B01A00EA04C9 /* AppDelegate.swift in Sources */,
+				345DF9AF222DEB0700992894 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
