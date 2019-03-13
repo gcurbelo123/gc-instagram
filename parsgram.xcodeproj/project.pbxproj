@@ -17,6 +17,7 @@
 		34DFD0E92220B02700EA04C9 /* parsgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD0E82220B02700EA04C9 /* parsgramUITests.swift */; };
 		34DFD0F72224AEB300EA04C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD0F62224AEB300EA04C9 /* LoginViewController.swift */; };
 		34DFD0F92224AEDA00EA04C9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD0F82224AEDA00EA04C9 /* FeedViewController.swift */; };
+		34E8B6792238CC1B00EF0574 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8B6782238CC1B00EF0574 /* CommentCell.swift */; };
 		8E0483FDC618DC6ACF782F89 /* Pods_parsgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9B07A5088A2CE94441974C /* Pods_parsgramTests.framework */; };
 		A48F690DFC4D7697B8EEF71A /* Pods_parsgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF444DB8202C58D3E850F01 /* Pods_parsgram.framework */; };
 		AD2C147CD3044CA8A95A4324 /* Pods_parsgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99773AF90FD6B6EAC2B148F5 /* Pods_parsgramUITests.framework */; };
@@ -57,6 +58,7 @@
 		34DFD0EA2220B02700EA04C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DFD0F62224AEB300EA04C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		34DFD0F82224AEDA00EA04C9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		34E8B6782238CC1B00EF0574 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		4BB7EAD4A6FF4A332816ABAF /* Pods-parsgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsgramTests.debug.xcconfig"; path = "Target Support Files/Pods-parsgramTests/Pods-parsgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BF444DB8202C58D3E850F01 /* Pods_parsgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parsgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9B07A5088A2CE94441974C /* Pods_parsgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parsgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				34DFD0F82224AEDA00EA04C9 /* FeedViewController.swift */,
 				345DF9AC2227504C00992894 /* CameraViewController.swift */,
 				345DF9AE222DEB0700992894 /* PostCell.swift */,
+				34E8B6782238CC1B00EF0574 /* CommentCell.swift */,
 			);
 			path = parsgram;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				34DFD0F92224AEDA00EA04C9 /* FeedViewController.swift in Sources */,
 				34DFD0C92220B01A00EA04C9 /* AppDelegate.swift in Sources */,
 				345DF9AF222DEB0700992894 /* PostCell.swift in Sources */,
+				34E8B6792238CC1B00EF0574 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
